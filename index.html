@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+
+        <script src="font-awesome.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="profile-settings-box">
+            <div class="profile-items">
+
+                <a href="javascript:" style="padding-right: 36%;">
+                    <i class="fas fa-cog fa-lg"></i>
+                    Configurações
+                </a>
+
+                <a href="javascript:" style="padding-right: 45%;">
+                    <i class="fas fa-user fa-lg"></i>
+                    Meus Dados
+                </a>
+                <a href="javascript:" style="padding-right: 46%;">
+                    <i class="fas fa-envelope fa-lg"></i>
+                    Mensagens
+                </a>
+                <a href="javascript:" style="padding-right: 41%;">
+                    <i class="fas fa-lock fa-lg"></i>
+                    Bloquear Tela
+                </a>
+                <a href="javascript:" style="padding-right: 70%;">
+                    <i class="fas fa-sign-out-alt fa-lg"></i>
+                    Sair
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="top" style="border: 1px solid #ff0000;">
+                    <input type="text" id="general-search-input" class="form-control" placeholder="">
+
+                    <div class="search-icon">
+                        <i class="fas fa-search" id="general-search-icon"></i>
+                    </div>
+
+                    <div class="icon-profile">
+                        <img src="perfil.png" alt="">
+                        <p>Luluzão <i class="fas fa-chevron-down"></i></p>
+
+
+                    </div>
+
+
+
+                    <!-- Local do Logo -->
+                    <div class="top-menu">
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="menu-topic">
+                        <p>Início</p>
+                    </div>
+
+                    <div class="items">
+                        <ul>
+                            <li class="li-items" >
+                                <a href="javascript:" class="a-item main-item" id="item-users">
+                                    <i class="fas fa-users"></i>
+                                    Usuários <span class="span-item"> > </span>
+                                </a>
+
+                                <ul id="ul-users" class="ul-subitem">
+                                    <li class="li-items"><a href="javascript:" class="a-item">Teste I</a></li>
+                                    <li class="li-items"><a href="javascript:" class="a-item">Teste II</a></li>
+                                    <li class="li-items"><a href="javascript:" class="a-item">Teste III</a></li>
+                                </ul>
+                            </li>
+
+                            <br>
+
+                            <li class="li-items" >
+                                <a href="javascript:" class="a-item main-item" id="item-os">
+                                    <i class="fas fa-file-alt"></i>
+                                    Orçamentos <span class="span-item"> > </span>
+                                </a>
+
+                                <ul id="ul-os" class="ul-subitem">
+                                    <li class="li-items"><a href="javascript:" class="a-item">
+                                        <i class="fas fa-list"></i> Lista Geral
+                                    </a></li>
+                                    <li class="li-items"><a href="javascript:" class="a-item">
+                                        <i class="fas fa-plus"></i> Nova OS
+                                    </a></li>
+                                    <li class="li-items"><a href="javascript:" class="a-item">
+                                        <i class="fas fa-trash"></i> OS Excluídas
+                                    </a></li>
+                                </ul>
+                            </li>
+
+                            <br>
+
+                            <li class="li-items" >
+                                <a href="javascript:" class="a-item main-item" id="item-vehicles">
+                                    <i class="fas fa-car"></i>
+                                    Veículos <span class="span-item"> > </span>
+                                </a>
+
+                                <ul id="ul-vehicles" class="ul-subitem">
+                                    <li class="li-items"><a href="javascript:" class="a-item">
+                                        <i class="fas fa-list"></i> Lista Geral
+                                    </a></li>
+                                    <li class="li-items"><a href="javascript:" class="a-item">
+                                        <i class="fas fa-plus"></i> Novo Veículo
+                                    </a></li>
+                                    <li class="li-items"><a href="javascript:" class="a-item">
+                                        <i class="fas fa-trash"></i> Veículos Excluídos
+                                    </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-container">
+            <div class="col-md-12" style="">
+
+            </div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
